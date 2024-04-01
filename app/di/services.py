@@ -1,9 +1,6 @@
-
-
-from fast_di import FastDIStub, DependencyCollector, FastDI
+from fast_di import DependencyCollector, FastDI
 from app.repositories import (
     abstractions as abs, 
-    sqlalchemy as sa_reps
 )
 from app import services
 

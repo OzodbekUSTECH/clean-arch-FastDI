@@ -19,3 +19,4 @@ class ContractsRepository(Protocol):
         raise NotImplementedError
 
     
+    
